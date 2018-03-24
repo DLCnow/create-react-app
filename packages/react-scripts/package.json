@@ -1,5 +1,5 @@
 {
-  "name": "k2-redux-react-scripts",
+  "name": "k2-tailwind-react-scripts",
   "version": "1.1.1",
   "description": "K2 configuration and scripts for Create React App with redux.",
   "repository": "k2data/create-react-app",
@@ -48,6 +48,7 @@
     "jest": "20.0.4",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-import": "^11.1.0",
     "postcss-loader": "2.0.8",
     "postcss-nested": "^3.0.0",
     "postcss-preset-env": "^3.2.2",
@@ -59,6 +60,7 @@
     "redux": "^3.7.2",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
+    "tailwindcss": "^0.5.1",
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.4",
