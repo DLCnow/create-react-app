@@ -1,6 +1,6 @@
 {
   "name": "k2-tailwind-react-scripts",
-  "version": "1.1.5-alpha.1",
+  "version": "1.1.5-alpha.0",
   "description": "K2 configuration and scripts for Create React App with redux.",
   "repository": "k2data/create-react-app",
   "license": "MIT",
