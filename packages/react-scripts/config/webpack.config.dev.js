@@ -74,6 +74,7 @@ module.exports = {
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info =>
       path.resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
+    crossOriginLoading: 'anonymous',
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
@@ -204,7 +205,7 @@ module.exports = {
                   ident: 'postcss',
                   plugins: () => [
                     require('postcss-nested')(),
-                    require('postcss-preset-env')({stage: 3}),
+                    require('postcss-preset-env')({ stage: 3 }),
                     require('postcss-flexbugs-fixes'),
                     autoprefixer({
                       browsers: [
