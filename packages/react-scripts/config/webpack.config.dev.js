@@ -40,7 +40,7 @@ const postcssLoader = {
     plugins: () => [
       require('postcss-import')(),
       require('postcss-nested')(),
-      require('postcss-preset-env')({ stage: 3 }),
+      require('postcss-preset-env')({ stage: 2 }),
       require('tailwindcss')(path.resolve(paths.appPath, 'tailwind.js')),
       require('postcss-flexbugs-fixes'),
       autoprefixer({
